@@ -1,0 +1,186 @@
+PS C:\Users\Orangeoads\Assignment7\cPS C:\Users\OrangePS C:\Users\OrangePS C:\Users\OrangePS C:\Users\OrangePS C:\Users\OrangePS C:\Users\Orange369\Downloads\Assignment7\code\build> ninja
+[1/5] B....cpp.ob FAILED: [code=2] CMakeFiles/RayTracing.dir/Renderer.cpp.obj 
+C:\PROGRA~1\MIB055~1\2022\Preview\VC\Tools\MSVC\1444~1.352\bin\Hostx64\x64\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /showIncludes /FoCMakeFiles\RayTracing.dir\Renderer.cpp.obj /FdCMakeFiles\RayTracing.dir\ /FS -c C:\Users\Orange369\Downloads\Assignment7\code\Renderer.cpp
+C:\Users\Orange369\Downloads\Assignment7\code\Scene.hpp(1): warning C4819: 该文件包含不能 在当前代码页(936) 中表示的字符。请将该文件保存为 Unicode 格式以防止数据 丢失
+C:\Users\Orange369\Downloads\Assignment7\code\global.hpp(23): warning C4244: “=”: 从“double”转换到“float”， 可能丢失数据
+C:\Users\Orange369\Downloads\Assignment7\code\global.hpp(26): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据  
+C:\Users\Orange369\Downloads\Assignment7\code\global.hpp(49): warning C4244: “初始化”: 从“float”转换到“int” ，可能丢失数据    
+C:\Users\Orange369\Downloads\Assignment7\code\Ray.hpp(16): warning C4244: “参数”: 从“double”转换到“float”， 可能丢失数据      
+C:\Users\Orange369\Downloads\Assignment7\code\Ray.hpp(16): warning C4244: “参数”: 从“double”转换到“float”， 可能丢失数据      
+C:\Users\Orange369\Downloads\Assignment7\code\Ray.hpp(16): warning C4244: “参数”: 从“double”转换到“float”， 可能丢失数据      
+C:\Users\Orange369\Downloads\Assignment7\code\Ray.hpp(22): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据 
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(20): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(20): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(20): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(21): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(21): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(21): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(109): warning C4244: “初始化”:  从“_Ty”转换到“float”，可能丢失数据  
+        with      
+        [
+            _Ty=double
+        ]
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(110): warning C4244: “初始化”:  从“_Ty”转换到“float”，可能丢失数据  
+        with      
+        [
+            _Ty=double
+        ]
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请 将该文件保存为 Unicode 格式以防止数 据丢失
+>> Using Material.hpp from: C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp    
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(139): error C2039: "sample": 不是 "Material" 的成员
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(18): note: 参见“Material”的声明
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(140): error C2065: “m_type”: 未声明的标识符      
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(140): error C2050: switch 表达 式不是整型        
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(148): error C3861: “toWorld”:  找不到标识符      
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(169): error C2039: "eval": 不是 "Material" 的成员
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(18): note: 参见“Material”的声明
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(170): error C2065: “m_type”: 未声明的标识符      
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(170): error C2050: switch 表达 式不是整型        
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(176): error C2065: “Kd”: 未声明的标识符
+C:\Users\Orange369\Downloads\Assignment7\code\Scene.hpp(23): warning C4305: “参数”: 从“double”到“float”截断 
+C:\Users\Orange369\Downloads\Assignment7\code\Scene.hpp(23): warning C4305: “参数”: 从“double”到“float”截断 
+C:\Users\Orange369\Downloads\Assignment7\code\Scene.hpp(23): warning C4305: “参数”: 从“double”到“float”截断 
+C:\Users\Orange369\Downloads\Assignment7\code\Renderer.cpp(10): warning C4244: “return”:  从“double”转换到“float”，可能丢失数 据
+C:\Users\Orange369\Downloads\Assignment7\code\Renderer.cpp(12): warning C4305: “初始化”:  从“double”到“float”截断
+C:\Users\Orange369\Downloads\Assignment7\code\Renderer.cpp(21): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+C:\Users\Orange369\Downloads\Assignment7\code\Renderer.cpp(29): warning C4018: “<”: 有符号/无符号不匹配     
+C:\Users\Orange369\Downloads\Assignment7\code\Renderer.cpp(30): warning C4018: “<”: 有符号/无符号不匹配     
+C:\Users\Orange369\Downloads\Assignment7\code\Renderer.cpp(32): warning C4244: “初始化”:  从“double”转换到“float”，可能丢失数 据
+C:\Users\Orange369\Downloads\Assignment7\code\Renderer.cpp(34): warning C4244: “初始化”:  从“double”转换到“float”，可能丢失数 据
+C:\Users\Orange369\Downloads\Assignment7\code\Renderer.cpp(38): warning C4244: “参数”: 从“int”转换到“const float”，可能丢失数 据
+C:\Users\Orange369\Downloads\Assignment7\code\Renderer.cpp(47): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[2/5] B....cpp.ob 
+FAILED: [code=2] CMakeFiles/RayTracing.dir/BVH.cpp.obj
+
+C:\PROGRA~1\MIB055~1\2022\Preview\VC\Tools\MSVC\1444~1.352\bin\Hostx64\x64\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /showIncludes /FoCMakeFiles\RayTracing.dir\BVH.cpp.obj /FdCMakeFiles\RayTracing.dir\ /FS -c C:\Users\Orange369\Downloads\Assignment7\code\BVH.cpp
+C:\Users\Orange369\Downloads\Assignment7\code\global.hpp(23): warning C4244: “=”: 从“double”转换到“float”， 可能丢失数据      
+C:\Users\Orange369\Downloads\Assignment7\code\global.hpp(26): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据  
+C:\Users\Orange369\Downloads\Assignment7\code\global.hpp(49): warning C4244: “初始化”: 从“float”转换到“int” ，可能丢失数据    
+C:\Users\Orange369\Downloads\Assignment7\code\Ray.hpp(16): warning C4244: “参数”: 从“double”转换到“float”， 可能丢失数据      
+C:\Users\Orange369\Downloads\Assignment7\code\Ray.hpp(16): warning C4244: “参数”: 从“double”转换到“float”， 可能丢失数据      
+C:\Users\Orange369\Downloads\Assignment7\code\Ray.hpp(16): warning C4244: “参数”: 从“double”转换到“float”， 可能丢失数据      
+C:\Users\Orange369\Downloads\Assignment7\code\Ray.hpp(22): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据 
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(20): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(20): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(20): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(21): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(21): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(21): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(109): warning C4244: “初始化”:  从“_Ty”转换到“float”，可能丢失数据  
+        with      
+        [
+            _Ty=double
+        ]
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(110): warning C4244: “初始化”:  从“_Ty”转换到“float”，可能丢失数据  
+        with      
+        [
+            _Ty=double
+        ]
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请 将该文件保存为 Unicode 格式以防止数 据丢失
+>> Using Material.hpp from: C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp    
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(139): error C2039: "sample": 不是 "Material" 的成员
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(18): note: 参见“Material”的声明
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(140): error C2065: “m_type”: 未声明的标识符      
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(140): error C2050: switch 表达 式不是整型        
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(148): error C3861: “toWorld”:  找不到标识符      
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(169): error C2039: "eval": 不是 "Material" 的成员
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(18): note: 参见“Material”的声明
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(170): error C2065: “m_type”: 未声明的标识符      
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(170): error C2050: switch 表达 式不是整型        
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(176): error C2065: “Kd”: 未声明的标识符
+[3/5] B....cpp.ob 
+FAILED: [code=2] CMakeFiles/RayTracing.dir/main.cpp.obj
+C:\PROGRA~1\MIB055~1\2022\Preview\VC\Tools\MSVC\1444~1.352\bin\Hostx64\x64\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /showIncludes /FoCMakeFiles\RayTracing.dir\main.cpp.obj /FdCMakeFiles\RayTracing.dir\ /FS -c C:\Users\Orange369\Downloads\Assignment7\code\main.cpp
+C:\Users\Orange369\Downloads\Assignment7\code\Scene.hpp(1): warning C4819: 该文件包含不能 在当前代码页(936) 中表示的字符。请将该文件保存为 Unicode 格式以防止数据 丢失
+C:\Users\Orange369\Downloads\Assignment7\code\global.hpp(23): warning C4244: “=”: 从“double”转换到“float”， 可能丢失数据      
+C:\Users\Orange369\Downloads\Assignment7\code\global.hpp(26): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据  
+C:\Users\Orange369\Downloads\Assignment7\code\global.hpp(49): warning C4244: “初始化”: 从“float”转换到“int” ，可能丢失数据    
+C:\Users\Orange369\Downloads\Assignment7\code\Ray.hpp(16): warning C4244: “参数”: 从“double”转换到“float”， 可能丢失数据      
+C:\Users\Orange369\Downloads\Assignment7\code\Ray.hpp(16): warning C4244: “参数”: 从“double”转换到“float”， 可能丢失数据      
+C:\Users\Orange369\Downloads\Assignment7\code\Ray.hpp(16): warning C4244: “参数”: 从“double”转换到“float”， 可能丢失数据      
+C:\Users\Orange369\Downloads\Assignment7\code\Ray.hpp(22): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据 
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(20): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(20): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(20): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(21): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(21): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(21): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(109): warning C4244: “初始化”:  从“_Ty”转换到“float”，可能丢失数据  
+        with      
+        [
+            _Ty=double
+        ]
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(110): warning C4244: “初始化”:  从“_Ty”转换到“float”，可能丢失数据  
+        with      
+        [
+            _Ty=double
+        ]
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请 将该文件保存为 Unicode 格式以防止数 据丢失
+>> Using Material.hpp from: C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp    
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(139): error C2039: "sample": 不是 "Material" 的成员
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(18): note: 参见“Material”的声明
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(140): error C2065: “m_type”: 未声明的标识符      
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(140): error C2050: switch 表达 式不是整型        
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(148): error C3861: “toWorld”:  找不到标识符      
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(169): error C2039: "eval": 不是 "Material" 的成员
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(18): note: 参见“Material”的声明
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(170): error C2065: “m_type”: 未声明的标识符      
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(170): error C2050: switch 表达 式不是整型        
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(176): error C2065: “Kd”: 未声明的标识符
+C:\Users\Orange369\Downloads\Assignment7\code\Scene.hpp(23): warning C4305: “参数”: 从“double”到“float”截断 
+C:\Users\Orange369\Downloads\Assignment7\code\Scene.hpp(23): warning C4305: “参数”: 从“double”到“float”截断 
+C:\Users\Orange369\Downloads\Assignment7\code\Scene.hpp(23): warning C4305: “参数”: 从“double”到“float”截断 
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请 将该文件保存为 Unicode 格式以防止数 据丢失
+>> Using Material.hpp from: C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp    
+C:\Users\Orange369\Downloads\Assignment7\code\OBJ_Loader.hpp(944): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失 数据
+C:\Users\Orange369\Downloads\Assignment7\code\Triangle.hpp(181): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据  
+C:\Users\Orange369\Downloads\Assignment7\code\Triangle.hpp(184): warning C4305: “参数”: 从“double”到“float” 截断
+C:\Users\Orange369\Downloads\Assignment7\code\Triangle.hpp(184): warning C4305: “参数”: 从“double”到“float” 截断
+C:\Users\Orange369\Downloads\Assignment7\code\Triangle.hpp(184): warning C4305: “参数”: 从“double”到“float” 截断
+C:\Users\Orange369\Downloads\Assignment7\code\Triangle.hpp(183): warning C4305: “参数”: 从“double”到“float” 截断
+C:\Users\Orange369\Downloads\Assignment7\code\Triangle.hpp(183): warning C4305: “参数”: 从“double”到“float” 截断
+C:\Users\Orange369\Downloads\Assignment7\code\Triangle.hpp(183): warning C4305: “参数”: 从“double”到“float” 截断
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请 将该文件保存为 Unicode 格式以防止数 据丢失
+>> Using Material.hpp from: C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp    
+C:\Users\Orange369\Downloads\Assignment7\code\Sphere.hpp(81): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据  
+[4/5] B....cpp.ob 
+FAILED: [code=2] CMakeFiles/RayTracing.dir/Scene.cpp.obj
+C:\PROGRA~1\MIB055~1\2022\Preview\VC\Tools\MSVC\1444~1.352\bin\Hostx64\x64\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /showIncludes /FoCMakeFiles\RayTracing.dir\Scene.cpp.obj /FdCMakeFiles\RayTracing.dir\ /FS -c C:\Users\Orange369\Downloads\Assignment7\code\Scene.cpp
+C:\Users\Orange369\Downloads\Assignment7\code\Scene.hpp(1): warning C4819: 该文件包含不能 在当前代码页(936) 中表示的字符。请将该文件保存为 Unicode 格式以防止数据 丢失
+C:\Users\Orange369\Downloads\Assignment7\code\global.hpp(23): warning C4244: “=”: 从“double”转换到“float”， 可能丢失数据      
+C:\Users\Orange369\Downloads\Assignment7\code\global.hpp(26): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据  
+C:\Users\Orange369\Downloads\Assignment7\code\global.hpp(49): warning C4244: “初始化”: 从“float”转换到“int” ，可能丢失数据    
+C:\Users\Orange369\Downloads\Assignment7\code\Ray.hpp(16): warning C4244: “参数”: 从“double”转换到“float”， 可能丢失数据      
+C:\Users\Orange369\Downloads\Assignment7\code\Ray.hpp(16): warning C4244: “参数”: 从“double”转换到“float”， 可能丢失数据      
+C:\Users\Orange369\Downloads\Assignment7\code\Ray.hpp(16): warning C4244: “参数”: 从“double”转换到“float”， 可能丢失数据      
+C:\Users\Orange369\Downloads\Assignment7\code\Ray.hpp(22): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据 
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(20): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(20): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(20): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(21): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(21): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(21): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据   
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(109): warning C4244: “初始化”:  从“_Ty”转换到“float”，可能丢失数据  
+        with      
+        [
+            _Ty=double
+        ]
+C:\Users\Orange369\Downloads\Assignment7\code\Bounds3.hpp(110): warning C4244: “初始化”:  从“_Ty”转换到“float”，可能丢失数据  
+        with      
+        [
+            _Ty=double
+        ]
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请 将该文件保存为 Unicode 格式以防止数 据丢失
+>> Using Material.hpp from: C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp    
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(139): error C2039: "sample": 不是 "Material" 的成员
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(18): note: 参见“Material”的声明
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(140): error C2065: “m_type”: 未声明的标识符      
+p(149): error C2039: "eval": 不是 "Material" 的成员
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(18): note: 参见“Material”的声 明
+C:\Users\Orange369\Downloads\Assignment7\code\Scene.cpp(153): error C2065: “RussianRoulette”: 未声明的标识符
+C:\Users\Orange369\Downloads\Assignment7\code\Scene.cpp(155): error C2039: "sample": 不是 "Material" 的成员
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(18): note: 参见“Material”的声 明
+C:\Users\Orange369\Downloads\Assignment7\code\Scene.cpp(159): error C2039: "eval": 不是 "Material" 的成员
+C:\Users\Orange369\Downloads\Assignment7\code\Material.hpp(18): note: 参见“Material”的声 明
+C:\Users\Orange369\Downloads\Assignment7\code\Scene.cpp(159): error C2065: “RussianRoulette”: 未声明的标识符
+ninja: build stopped: subcommand failed.
